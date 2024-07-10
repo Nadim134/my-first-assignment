@@ -6,7 +6,8 @@ padding:0}
     width:1440px;
     height: 652px;
     background-image: url("assets/Hero-bg.png");
-    margin-top: 0px;
+    margin-top: 0px;;
+    margin:0px auto
     
 
         
@@ -168,7 +169,7 @@ padding:0}
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     background-color: rgb(255, 255, 255);
-    }
+}
     /*card wrapper2  */
     .card-wrapper2{
         width: 1050px;
@@ -178,12 +179,12 @@ padding:0}
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
 
-    }
+}
 
     .right-img img{
         width: 223px;
         height: 208px;
-    }
+}
   .card-wrapper2 .left-items{
         display: flex;align-items: start;
         
@@ -227,7 +228,7 @@ padding:0}
     font-size: 32px;
     font-weight: 800;
     line-height: 37px
-    }
+ }
     #wrapper p{
     width: 852px;
     height: 52px;
@@ -241,11 +242,11 @@ padding:0}
     text-align: center;
     opacity: 0.7;
     margin-bottom: 50px;
-    }
+}
     .video{
 
         display: flex;
-    }
+}
     .video .jhongkar-video{
         width:1076px;
         height: 550px;
@@ -254,7 +255,182 @@ padding:0}
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     margin: 0px auto;
+    margin-bottom:149px ;
 
 
+}
+/* current target */
+#current-target{
+    width:1140px;
+    height: 463px;
+    margin: 0px auto;
+   
+}
+.target{
+    width: 946px;
+    height:115px;
+    margin-left:120px;
+    margin-bottom: 48px;
+}
+.target h2{
+width: 852px;
+height: 39px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+margin-bottom:24px;
+}
+.target p{
+    width: 852px;
+    height: 52px;color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+#cards{
+    width:1140px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+/* html card */
+.htmlcard{
+    width: 284px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding:40px
+}
+.htmlcard h1{
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;;
+    margin-top:24px
+
+}
+.htmlcard p{
+    width: 284px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin-top:8px;
+    margin-bottom:24px;
+
+}
+.htmlcard a{
+    height: 20px;
+    width:284px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* csscard */
+.csscard{
+    width:284px;
+    height: 220px;
+    padding:40px;
+    border-radius: 16px;
+
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.csscard h1{
+    width:284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24px;
     }
+.csscard p{
+    width:284px;
+    height: 52px;
+    color:  rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom:24px
+}
+.csscard a{
+    height: 20px;
+    width:284px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+
+}
+/* jscard */
+.jscard{
+    width:284px ;
+    height:220px ;
+    padding:40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    ;
+}
+.jscard h1{
+    height:36px ;
+    width:284px ;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24px;
+}
+.jscard p{
+    width:284px ;
+    height:52px ;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+    margin-top:8px;
+    margin-bottom: 24px;
+}
+.jscard a{
+    height: 20px;
+    width:284px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
