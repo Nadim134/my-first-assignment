@@ -169,6 +169,7 @@ padding:0}
     border: 1px solid rgb(13, 19, 33);
     background-color: rgb(255, 255, 255);
     }
+    /*card wrapper2  */
     .card-wrapper2{
         width: 1050px;
         height: 240px;
@@ -212,3 +213,48 @@ padding:0}
     opacity: 0.7;
    
     }
+    /* my inspiration section */
+#my-inspiration .wrapper{
+    width: 1140px;
+    height: 777px;
+}
+#wrapper .h2{
+    width: 852px;
+    height: 39px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px
+    }
+    #wrapper p{
+    width: 852px;
+    height: 52px;
+    margin: 0px auto;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    }
+    .video{
+
+        display: flex;
+    }
+    .video .jhongkar-video{
+        width:1076px;
+        height: 550px;
+        padding: 32px;
+        box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0px auto;
+
+
+    }
+
